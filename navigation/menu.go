@@ -96,6 +96,7 @@ type Page interface {
 type Menu []*MenuEntry
 
 // Menus is a dictionary of menus.
+// 语法: map[KeyType]ValueType
 type Menus map[string]Menu
 
 // PageMenus is a dictionary of menus defined in the Pages.
